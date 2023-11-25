@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Chawk Bazar</title>
+</head>
+<body>
+    <!-- nav -->
+    <section>
+        <!-- navbar -->
+        <div class="w-screen bg-white h-auto">
+            <div class="flex items-center justify-between my-2 md:my-6">
+                <div class="p-4">
+                    <ul class="flex gap-6 items-center">
+                        <li>
+                            <a href="#">
+                                <img src="./img/chawk-bazar-logo.png" alt="chawk-bazar-logo">
+                            </a>
+                        </li>
+                        <li class="hidden md:block">
+                            <a class="flex items-center gap-1" href="#">
+                                <span>Demos</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m17 10l-5 5l-5-5"/></svg>
+                            </a>
+                        </li>
+                        <li class="hidden md:block">
+                            <a class="flex items-center gap-1" href="#">
+                                <span>Men Wear</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m17 10l-5 5l-5-5"/></svg>
+                            </a>
+                        </li>
+                        <li class="hidden md:block">
+                            <a class="flex items-center gap-1" href="#">
+                                <span>Women Wear</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m17 10l-5 5l-5-5"/></svg>
+                            </a>
+                        </li>
+                        <li class="hidden md:block">
+                            <a class="flex items-center gap-1" href="#">
+                                <span>Search</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m17 10l-5 5l-5-5"/></svg>
+                            </a>
+                        </li>
+                        <li class="hidden md:block">
+                            <a class="flex items-center gap-1" href="#">
+                                <span>Shops</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m17 10l-5 5l-5-5"/></svg>
+                            </a>
+                        </li>
+                        <li class="hidden md:block">
+                            <a class="flex items-center gap-1" href="#">
+                                <span>Pages</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m17 10l-5 5l-5-5"/></svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="p-4">
+                    <ul class="flex items-center gap-6">
+                        <li class="border border-x-[1px] border-y-[1px] px-3 py-2 rounded-lg">
+                            <a class="flex items-center gap-1" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 72 72"><path fill="#fff" d="M5 17h62v38H5z"/><path fill="#d22f27" d="M5 17h62v5H5zm0 9h62v4H5zm0 8h62v4H5z"/><path fill="#1e50a0" d="M5 17h32v21H5z"/><path fill="#d22f27" d="M5 42h62v4H5z"/><circle cx="9" cy="22" r="1.75" fill="#fff"/><circle cx="17" cy="22" r="1.75" fill="#fff"/><circle cx="25" cy="22" r="1.75" fill="#fff"/><circle cx="33" cy="22" r="1.75" fill="#fff"/><circle cx="29" cy="26" r="1.75" fill="#fff"/><circle cx="21" cy="26" r="1.75" fill="#fff"/><circle cx="13" cy="26" r="1.75" fill="#fff"/><circle cx="9" cy="30" r="1.75" fill="#fff"/><circle cx="17" cy="30" r="1.75" fill="#fff"/><circle cx="25" cy="30" r="1.75" fill="#fff"/><circle cx="33" cy="30" r="1.75" fill="#fff"/><circle cx="29" cy="34" r="1.75" fill="#fff"/><circle cx="21" cy="34" r="1.75" fill="#fff"/><circle cx="13" cy="34" r="1.75" fill="#fff"/><path fill="#d22f27" d="M5 50h62v5H5z"/><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 17h62v38H5z"/></svg>
+                                <span>English-US</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="m136 208l120-104l120 104m-240 96l120 104l120-104"/></svg>
+                            </a>
+                        </li>
+                        <li class="hidden md:block">
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 15 15"><path fill="currentColor" fill-rule="evenodd" d="M10 6.5a3.5 3.5 0 1 1-7 0a3.5 3.5 0 0 1 7 0Zm-.691 3.516a4.5 4.5 0 1 1 .707-.707l2.838 2.837a.5.5 0 0 1-.708.708L9.31 10.016Z" clip-rule="evenodd"/></svg>
+                            </a>
+                        </li>
+                        <li class="hidden md:block">
+                            <a href="#">Sign In</a>
+                        </li>
+                        <li class="hidden md:block">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 256"><path fill="currentColor" d="M216 44H40a12 12 0 0 0-12 12v144a12 12 0 0 0 12 12h176a12 12 0 0 0 12-12V56a12 12 0 0 0-12-12Zm4 156a4 4 0 0 1-4 4H40a4 4 0 0 1-4-4V56a4 4 0 0 1 4-4h176a4 4 0 0 1 4 4ZM172 88a44 44 0 0 1-88 0a4 4 0 0 1 8 0a36 36 0 0 0 72 0a4 4 0 0 1 8 0Z"/></svg>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--section hero -->
+    <section>
+        <div class="max-w-[1600px] p-1 mx-auto">
+            <div class="flex flex-col-reverse md:flex-row items-center gap-2">
+                <div class="flex flex-col space-y-5 flex-1">
+                    <!-- item container -->
+                    <div class="flex items-center justify-between max-w-[339px] bg-gray-200 px-4 py-2 rounded-md 
+                    m-3 md:m-0">
+                        <div class="flex items-center gap-2">
+                            <div>
+                                <img class="rounded-full h-12 w-12" src="./img/watch.jpg" alt="watch">
+                            </div>
+                            <h3 class="text-[14px]">Watch</h3>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <p class="text-[12px] bg-gray-300">20</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 6.71a.996.996 0 0 0 0 1.41L13.17 12l-3.88 3.88a.996.996 0 1 0 1.41 1.41l4.59-4.59a.996.996 0 0 0 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01z"/></svg>
+                        </div>
+                    </div>
+
+                    <div class="hidden md:flex items-center justify-between max-w-[339px] bg-gray-200 px-4 py-2 rounded-md">
+                        <div class="flex items-center gap-2">
+                            <div>
+                                <img class="rounded-full h-12 w-12" src="./img/watch.jpg" alt="watch">
+                            </div>
+                            <h3 class="text-[14px]">Watch</h3>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <p class="text-[12px] bg-gray-300">20</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 6.71a.996.996 0 0 0 0 1.41L13.17 12l-3.88 3.88a.996.996 0 1 0 1.41 1.41l4.59-4.59a.996.996 0 0 0 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01z"/></svg>
+                        </div>
+                    </div>
+
+                    <div class="hidden md:flex items-center justify-between max-w-[339px] bg-gray-200 px-4 py-2 rounded-md">
+                        <div class="flex items-center gap-2">
+                            <div>
+                                <img class="rounded-full h-12 w-12" src="./img/watch.jpg" alt="watch">
+                            </div>
+                            <h3 class="text-[14px]">Watch</h3>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <p class="text-[12px] bg-gray-300">20</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 6.71a.996.996 0 0 0 0 1.41L13.17 12l-3.88 3.88a.996.996 0 1 0 1.41 1.41l4.59-4.59a.996.996 0 0 0 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01z"/></svg>
+                        </div>
+                    </div>
+
+                    <div class="hidden md:flex items-center justify-between max-w-[339px] bg-gray-200 px-4 py-2 rounded-md">
+                        <div class="flex items-center gap-2">
+                            <div>
+                                <img class="rounded-full h-12 w-12" src="./img/watch.jpg" alt="watch">
+                            </div>
+                            <h3 class="text-[14px]">Watch</h3>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <p class="text-[12px] bg-gray-300">20</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 6.71a.996.996 0 0 0 0 1.41L13.17 12l-3.88 3.88a.996.996 0 1 0 1.41 1.41l4.59-4.59a.996.996 0 0 0 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01z"/></svg>
+                        </div>
+                    </div>
+
+                    <div class="hidden md:flex items-center justify-between max-w-[339px] bg-gray-200 px-4 py-2 rounded-md">
+                        <div class="flex items-center gap-2">
+                            <div>
+                                <img class="rounded-full h-12 w-12" src="./img/watch.jpg" alt="watch">
+                            </div>
+                            <h3 class="text-[14px]">Watch</h3>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <p class="text-[12px] bg-gray-300">20</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 6.71a.996.996 0 0 0 0 1.41L13.17 12l-3.88 3.88a.996.996 0 1 0 1.41 1.41l4.59-4.59a.996.996 0 0 0 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01z"/></svg>
+                        </div>
+                    </div>
+
+                    <div class="hidden md:flex items-center justify-between max-w-[339px] bg-gray-200 px-4 py-2 rounded-md">
+                        <div class="flex items-center gap-2">
+                            <div>
+                                <img class="rounded-full h-12 w-12" src="./img/watch.jpg" alt="watch">
+                            </div>
+                            <h3 class="text-[14px]">Watch</h3>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <p class="text-[12px] bg-gray-300">20</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 6.71a.996.996 0 0 0 0 1.41L13.17 12l-3.88 3.88a.996.996 0 1 0 1.41 1.41l4.59-4.59a.996.996 0 0 0 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01z"/></svg>
+                        </div>
+                    </div>
+
+                    <div class="hidden md:flex items-center justify-between max-w-[339px] bg-gray-200 px-4 py-2 rounded-md">
+                        <div class="flex items-center gap-2">
+                            <div>
+                                <img class="rounded-full h-12 w-12" src="./img/watch.jpg" alt="watch">
+                            </div>
+                            <h3 class="text-[14px]">Watch</h3>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <p class="text-[12px] bg-gray-300">20</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 6.71a.996.996 0 0 0 0 1.41L13.17 12l-3.88 3.88a.996.996 0 1 0 1.41 1.41l4.59-4.59a.996.996 0 0 0 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01z"/></svg>
+                        </div>
+                    </div>
+
+                    <div class="hidden md:flex items-center justify-between max-w-[339px] bg-gray-200 px-4 py-2 rounded-md">
+                        <div class="flex items-center gap-2">
+                            <div>
+                                <img class="rounded-full h-12 w-12" src="./img/watch.jpg" alt="watch">
+                            </div>
+                            <h3 class="text-[14px]">Watch</h3>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <p class="text-[12px] bg-gray-300">20</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 6.71a.996.996 0 0 0 0 1.41L13.17 12l-3.88 3.88a.996.996 0 1 0 1.41 1.41l4.59-4.59a.996.996 0 0 0 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01z"/></svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="relative h-full md:w-[1210px] flex-1"> 
+                        <div class="">
+                            <img class="w-full h-[150px] md:h-[648px] object-cover rounded-md" src="./img/hero-1.jpg" alt="hero">
+                        </div>
+                        <div class="absolute left-5 top-5 md:top-40 md:left-16">
+                            <h1 class="text-[12px] md:text-[30px] w-[100px] md:w-[290px]">We Pick Every Item With Care, <b>You Must Try</b> Atleast Once</h1>
+                            <div class="inline-block mt-2 md:mt-10">
+                                <a class="flex items-center gap-2 px-1 py-1 rounded-full md:px-4 md:py-2 bg-black text-white md:rounded-md" href="#">
+                                    <span class="hidden md:block">Go To Collection</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="currentColor" d="M16.15 13H5q-.425 0-.713-.288T4 12q0-.425.288-.713T5 11h11.15L13.3 8.15q-.3-.3-.288-.7t.288-.7q.3-.3.713-.313t.712.288L19.3 11.3q.15.15.213.325t.062.375q0 .2-.063.375t-.212.325l-4.575 4.575q-.3.3-.712.288t-.713-.313q-.275-.3-.288-.7t.288-.7L16.15 13Z"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- showcase -->
+    <section class="mt-6 md:mt-14">
+        <!-- main container -->
+        <div class="max-w-[1600px] p-1 mx-auto">
+            <!-- secondary container -->
+            <div class="flex flex-col-reverse md:flex-row gap-7 md:gap-9 w-full">
+                <!-- left side item -->
+                <div class=" md:w-[1100px] flex-1 border border-gray-300 rounded-lg pt-6 md:pt-7 px-4 md:px-5 pb-5">
+                    <div class="flex items-center justify-between -mt-2 pb-0.5 mb-4 md:mb-5 lg:mb-6 2xl:mb-7 3xl:mb-8">
+                        <h3 class="text-lg md:text-xl font-bold text-heading">
+                            Top Products
+                        </h3>
+                        <a class="text-xs lg:text-sm xl:text-base text-heading mt-0.5 lg:mt-1" href="#">See All Products</a>
+                    </div>
+
+                    <div class="flex flex-col md:flex-row md:justify-between flex-wrap gap-y-5">
+                        <!-- item 1 -->
+                        <div class="md:w-[49%] bg-gray-200 rounded-lg flex items-center">
+                            <div>
+                                <img class="h-[208px] w-[208px] rounded-l-lg" src="./img/sunglass.jpg" alt="">
+                            </div>
+
+                            <div class="pl-4 space-y-2">
+                                <h2 class="text-lg font-bold">Sun Glass</h2>
+                                <p class="text-sm text-[#5a5a5a]">Sporty essentials, these Und...</p>
+                                <div>
+                                    <span class="font-semibold text-xl">$15.00</span>
+                                    <span class="line-through text-[#5a5a5a]">$20.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item 2 -->
+                        <div class="md:w-[49%] bg-gray-200 rounded-lg flex items-center">
+                            <div>
+                                <img class="h-[208px] w-[208px] rounded-l-lg" src="./img/sunglass.jpg" alt="">
+                            </div>
+
+                            <div class="pl-4 space-y-2">
+                                <h2 class="text-lg font-bold">Sun Glass</h2>
+                                <p class="text-sm text-[#5a5a5a]">Sporty essentials, these Und...</p>
+                                <div>
+                                    <span class="font-semibold text-xl">$15.00</span>
+                                    <span class="line-through text-[#5a5a5a]">$20.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item 3 -->
+                        <div class="md:w-[49%] bg-gray-200 rounded-lg flex items-center">
+                            <div>
+                                <img class="h-[208px] w-[208px] rounded-l-lg" src="./img/sunglass.jpg" alt="">
+                            </div>
+
+                            <div class="pl-4 space-y-2">
+                                <h2 class="text-lg font-bold">Sun Glass</h2>
+                                <p class="text-sm text-[#5a5a5a]">Sporty essentials, these Und...</p>
+                                <div>
+                                    <span class="font-semibold text-xl">$15.00</span>
+                                    <span class="line-through text-[#5a5a5a]">$20.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- item 4 -->
+                        <div class="md:w-[49%] bg-gray-200 rounded-lg flex items-center">
+                            <div>
+                                <img class="h-[208px] w-[208px] rounded-l-lg" src="./img/sunglass.jpg" alt="">
+                            </div>
+
+                            <div class="pl-4 space-y-2">
+                                <h2 class="text-lg font-bold">Sun Glass</h2>
+                                <p class="text-sm text-[#5a5a5a]">Sporty essentials, these Und...</p>
+                                <div>
+                                    <span class="font-semibold text-xl">$15.00</span>
+                                    <span class="line-through text-[#5a5a5a]">$20.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- right side item -->
+                <div class="flex flex-col border border-gray-300 md:w-[363px] rounded-lg pt-6 sm:pt-7 lg:pt-8 xl:pt-7 2xl:pt-9 px-4 md:px-5 lg:px-7 pb-6 lg:pb-7 false col-span-full xl:col-span-2 row-span-full xl:row-auto">
+                    <h3 class="font-bold text-3xl">Flash Sale</h3>
+                    <img class="h-[259px] w-[285px] md:w-full rounded-lg mt-6" src="./img/sunglass.jpg" alt="">
+                    <div class="mt-5 space-y-4">
+                        <h4 class="font-semibold">Adidas Shoes Black</h4>
+                        <p class="text-sm">Men Black top sleeveless gown</p>
+                        <div>
+                            <span class="font-semibold text-xl">$15.00</span>
+                            <span class="line-through text-[#5a5a5a]">$20.00</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-row items-center justify-between mt-4">
+                        <p class="text-[#5a5a5a]">Sold: 120</p>
+                        <p class="text-[#5a5a5a]">Available: 145</p>
+                    </div>
+                    <div class="h-[16px] w-[263px] bg-gray-200 rounded-full mt-2 mx-auto">
+                        <div class="h-full w-[45%] rounded-full bg-black"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- product off -->
+    <section class="mt-5 md:mt-10">
+        <div class="max-w-[1600px] p-1 mx-auto h-auto">
+            <div class="flex flex-col items-center gap-2 md:gap-6 w-full">
+                <div class="flex flex-col md:flex-row items-center justify-center gap-6 w-full">
+                    <div class="relative flex-1">
+                        <div>
+                            <img class="w-full object-cover h-[364px] rounded-lg" src="./img/jeans.jpg" alt="">
+                        </div>
+                        <div class="absolute top-28 right-20 space-y-3">
+                            <h2 class="text-3xl font-bold">60% OFF</h2>
+                            <p class="uppercase font-semibold">All jeans collection</p>
+                            <a class="flex items-center gap-1 px-3 py-2 border border-black rounded-lg hover:bg-black hover:text-white" href="#">
+                                <span>
+                                    Go To Collection
+                                </span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="currentColor" d="M16.15 13H5q-.425 0-.713-.288T4 12q0-.425.288-.713T5 11h11.15L13.3 8.15q-.3-.3-.288-.7t.288-.7q.3-.3.713-.313t.712.288L19.3 11.3q.15.15.213.325t.062.375q0 .2-.063.375t-.212.325l-4.575 4.575q-.3.3-.712.288t-.713-.313q-.275-.3-.288-.7t.288-.7L16.15 13Z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="relative flex-1">
+                        <div>
+                            <img class="w-full h-[364px] rounded-lg" src="./img/jeans.jpg" alt="">
+                        </div>
+                        <div class="absolute top-28 left-20 space-y-3">
+                            <h2 class="text-3xl font-bold">60% OFF</h2>
+                            <p class="uppercase font-semibold">All jeans collection</p>
+                            <a class="flex items-center gap-1 px-3 py-2 border border-black rounded-lg hover:bg-black hover:text-white" href="#">
+                                <span>
+                                    Go To Collection
+                                </span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="currentColor" d="M16.15 13H5q-.425 0-.713-.288T4 12q0-.425.288-.713T5 11h11.15L13.3 8.15q-.3-.3-.288-.7t.288-.7q.3-.3.713-.313t.712.288L19.3 11.3q.15.15.213.325t.062.375q0 .2-.063.375t-.212.325l-4.575 4.575q-.3.3-.712.288t-.713-.313q-.275-.3-.288-.7t.288-.7L16.15 13Z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex-1 w-full">
+                    <div class="relative w-full">
+                        <div>
+                            <img class="md:w-full object-cover h-96 rounded-lg" src="./img/jeans.jpg" alt="">
+                        </div>
+                        <div class="absolute top-28 left-20 md:left-[43%] space-y-3">
+                            <h2 class="text-3xl font-bold">60% OFF</h2>
+                            <p class="uppercase font-semibold">All jeans collection</p>
+                            <a class="flex items-center gap-1 px-3 py-2 border border-black rounded-lg hover:bg-black hover:text-white" href="#">
+                                <span>
+                                    Go To Collection
+                                </span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="currentColor" d="M16.15 13H5q-.425 0-.713-.288T4 12q0-.425.288-.713T5 11h11.15L13.3 8.15q-.3-.3-.288-.7t.288-.7q.3-.3.713-.313t.712.288L19.3 11.3q.15.15.213.325t.062.375q0 .2-.063.375t-.212.325l-4.575 4.575q-.3.3-.712.288t-.713-.313q-.275-.3-.288-.7t.288-.7L16.15 13Z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Categories -->
+    <!-- <section class="mt-5 md:mt-10">
+        <div class="max-w-[1700px] mx-auto h-auto">
+            <div class="flex items-center justify-between md:pl-20">
+                <h3 class="text-3xl font-bold">Featured Categories</h3>
+            </div>
+            <div class="w-[440px] h-240px p-7 border border-gray-300 rounded-lg">
+
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Best Sellers -->
+    <section class="mt-5 md:mt-10">
+        <div class="max-w-[1600px] p-1 mx-auto h-auto">
+            <div class="flex items-center justify-between">
+                <h3 class="text-3xl font-bold mb-3">Best Sellers</h3>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-5  gap-10 mt-4 w-full">
+                <!-- item 1 -->
+                <div class="w-full md:w-[283px] h-[497px] rounded-lg space-y-4 transition-all duration-300 bg-gray-200  hover:shadow hover:shodow-xl hover:-translate-y-2">
+                    <div>
+                        <img class="h-[366px] w-full object-cover rounded-lg" src="./img/p-1.webp" alt="">
+                    </div>
+                    <div class="space-y-1 p-3">
+                        <h2 class="font-bold text-lg">Nike Black</h2>
+                        <p class="text-sm text-[#5a5a5a]">Casual wear </p>
+                        <div>
+                            <span class="font-semibold text-xl">$15.00</span>
+                            <span class="line-through text-[#5a5a5a]">$20.00</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 2 -->
+                <div class="w-full md:w-[283px] h-[497px] rounded-lg space-y-4 transition-all duration-300 bg-gray-200  hover:shadow hover:shodow-xl hover:-translate-y-2">
+                    <div>
+                        <img class="h-[366px] w-full object-cover rounded-lg" src="./img/p-1.webp" alt="">
+                    </div>
+                    <div class="space-y-1 p-3">
+                        <h2 class="font-bold text-lg">Nike Black</h2>
+                        <p class="text-sm text-[#5a5a5a]">Casual wear </p>
+                        <div>
+                            <span class="font-semibold text-xl">$15.00</span>
+                            <span class="line-through text-[#5a5a5a]">$20.00</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 3 -->
+                <div class="w-full md:w-[283px] h-[497px] rounded-lg space-y-4 transition-all duration-300 bg-gray-200  hover:shadow hover:shodow-xl hover:-translate-y-2">
+                    <div>
+                        <img class="h-[366px] w-full object-cover rounded-lg" src="./img/p-1.webp" alt="">
+                    </div>
+                    <div class="space-y-1 p-3">
+                        <h2 class="font-bold text-lg">Nike Black</h2>
+                        <p class="text-sm text-[#5a5a5a]">Casual wear </p>
+                        <div>
+                            <span class="font-semibold text-xl">$15.00</span>
+                            <span class="line-through text-[#5a5a5a]">$20.00</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 4 -->
+                <div class="w-full md:w-[283px] h-[497px] rounded-lg space-y-4 transition-all duration-300 bg-gray-200  hover:shadow hover:shodow-xl hover:-translate-y-2">
+                    <div>
+                        <img class="h-[366px] w-full object-cover rounded-lg" src="./img/p-1.webp" alt="">
+                    </div>
+                    <div class="space-y-1 p-3">
+                        <h2 class="font-bold text-lg">Nike Black</h2>
+                        <p class="text-sm text-[#5a5a5a]">Casual wear </p>
+                        <div>
+                            <span class="font-semibold text-xl">$15.00</span>
+                            <span class="line-through text-[#5a5a5a]">$20.00</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 5 -->
+                <div class="w-full md:w-[283px] h-[497px] rounded-lg space-y-4 transition-all duration-300 bg-gray-200  hover:shadow hover:shodow-xl hover:-translate-y-2">
+                    <div>
+                        <img class="h-[366px] w-full object-cover rounded-lg" src="./img/p-1.webp" alt="">
+                    </div>
+                    <div class="space-y-1 p-3">
+                        <h2 class="font-bold text-lg">Nike Black</h2>
+                        <p class="text-sm text-[#5a5a5a]">Casual wear </p>
+                        <div>
+                            <span class="font-semibold text-xl">$15.00</span>
+                            <span class="line-through text-[#5a5a5a]">$20.00</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 6 -->
+                <div class="w-full md:w-[283px] h-[497px] rounded-lg space-y-4 transition-all duration-300 bg-gray-200  hover:shadow hover:shodow-xl hover:-translate-y-2">
+                    <div>
+                        <img class="h-[366px] w-full object-cover rounded-lg" src="./img/p-1.webp" alt="">
+                    </div>
+                    <div class="space-y-1 p-3">
+                        <h2 class="font-bold text-lg">Nike Black</h2>
+                        <p class="text-sm text-[#5a5a5a]">Casual wear </p>
+                        <div>
+                            <span class="font-semibold text-xl">$15.00</span>
+                            <span class="line-through text-[#5a5a5a]">$20.00</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 7 -->
+                <div class="w-full md:w-[283px] h-[497px] rounded-lg space-y-4 transition-all duration-300 bg-gray-200  hover:shadow hover:shodow-xl hover:-translate-y-2">
+                    <div>
+                        <img class="h-[366px] w-full object-cover rounded-lg" src="./img/p-1.webp" alt="">
+                    </div>
+                    <div class="space-y-1 p-3">
+                        <h2 class="font-bold text-lg">Nike Black</h2>
+                        <p class="text-sm text-[#5a5a5a]">Casual wear </p>
+                        <div>
+                            <span class="font-semibold text-xl">$15.00</span>
+                            <span class="line-through text-[#5a5a5a]">$20.00</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 8 -->
+                <div class="w-full md:w-[283px] h-[497px] rounded-lg space-y-4 transition-all duration-300 bg-gray-200  hover:shadow hover:shodow-xl hover:-translate-y-2">
+                    <div>
+                        <img class="h-[366px] w-full object-cover rounded-lg" src="./img/p-1.webp" alt="">
+                    </div>
+                    <div class="space-y-1 p-3">
+                        <h2 class="font-bold text-lg">Nike Black</h2>
+                        <p class="text-sm text-[#5a5a5a]">Casual wear </p>
+                        <div>
+                            <span class="font-semibold text-xl">$15.00</span>
+                            <span class="line-through text-[#5a5a5a]">$20.00</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 9 -->
+                <div class="w-full md:w-[283px] h-[497px] rounded-lg space-y-4 transition-all duration-300 bg-gray-200  hover:shadow hover:shodow-xl hover:-translate-y-2">
+                    <div>
+                        <img class="h-[366px] w-full object-cover rounded-lg" src="./img/p-1.webp" alt="">
+                    </div>
+                    <div class="space-y-1 p-3">
+                        <h2 class="font-bold text-lg">Nike Black</h2>
+                        <p class="text-sm text-[#5a5a5a]">Casual wear </p>
+                        <div>
+                            <span class="font-semibold text-xl">$15.00</span>
+                            <span class="line-through text-[#5a5a5a]">$20.00</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 10 -->
+                <div class="w-full md:w-[283px] h-[497px] rounded-lg space-y-4 transition-all duration-300 bg-gray-200  hover:shadow hover:shodow-xl hover:-translate-y-2">
+                    <div>
+                        <img class="h-[366px] w-full object-cover rounded-lg" src="./img/p-1.webp" alt="">
+                    </div>
+                    <div class="space-y-1 p-3">
+                        <h2 class="font-bold text-lg">Nike Black</h2>
+                        <p class="text-sm text-[#5a5a5a]">Casual wear </p>
+                        <div>
+                            <span class="font-semibold text-xl">$15.00</span>
+                            <span class="line-through text-[#5a5a5a]">$20.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
